@@ -1,0 +1,2 @@
+D:/clientsprojects/AiImageGeneratorAppCode/android/app/.cxx/Debug/186k724y/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/clientsprojects/AiImageGeneratorAppCode/android/app/.cxx/Debug/186k724y/armeabi-v7a/CMakeFiles/rebuild_cache.dir

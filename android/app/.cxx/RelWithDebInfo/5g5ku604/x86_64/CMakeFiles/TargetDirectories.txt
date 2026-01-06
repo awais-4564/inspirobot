@@ -1,0 +1,2 @@
+D:/clientsprojects/AiImageGeneratorAppCode/android/app/.cxx/RelWithDebInfo/5g5ku604/x86_64/CMakeFiles/edit_cache.dir
+D:/clientsprojects/AiImageGeneratorAppCode/android/app/.cxx/RelWithDebInfo/5g5ku604/x86_64/CMakeFiles/rebuild_cache.dir
