@@ -1,0 +1,59 @@
+# Build outputs
+build/
+. dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# IDE directories
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Platform-specific files
+android/. gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+ios/. symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*. md
+images/
+
+# Docker files
+Dockerfile
+. dockerignore
+docker-compose. yml
+
+# Temporary files
+*. log
+*.tmp
+*.temp
+. DS_Store
+
+# Test files
+test/
+**/test/
+**/*_test.dart
+
+# Coverage
+coverage/
+
+# Misc
+.metadata
+pubspec.lock

@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  inspirobot:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: inspirobot-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment: 
+      - FLUTTER_ENV=production
+    networks:
+      - inspirobot-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  inspirobot-network:
+    driver: bridge
+
+# Optional: Add volumes if you need persistent storage
+# volumes:
+#   inspirobot-data:
+#     driver: local
